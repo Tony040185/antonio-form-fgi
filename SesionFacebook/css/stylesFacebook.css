@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+.contenedor-principal{    
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;  
+    margin-top: 150px;    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.logo {
+    margin-top: 80px ;
+    width: 700px;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+img {
+    position: absolute;
+    top: 300PX;
+    
+}
+.contenedor-secundario {      
+    width: 500px;
+    margin-top: 80px;    
+}
+
+.contenedor-form{
+    background-color: white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: rgb(240, 239, 239) solid;
+    box-shadow: 5px 5px 5px gray; 
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+    width: 96%;
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    border: rgb(237, 236, 236) solid;    
+}
+
+input[type="text"], input[type="password"]{
+    opacity: 0.7;
+}
+
+input[type="submit"]{
+    background-color: rgb(24, 119, 242);
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+img {
+    width: 250px;
+}
+
+.link-password, .footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.link-password a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: rgb(24, 119, 242); /* Cambia el color del texto */
+}
+
+.line {
+    height: 2px;
+    width: 100%; /* Ancho de las líneas */
+    background: rgba(37, 37, 37, 0.2);
+}
+
+.newAccount{
+    text-align: center;
+}
+
+input[type="button"]{
+    background-color: rgb(74, 194, 74);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

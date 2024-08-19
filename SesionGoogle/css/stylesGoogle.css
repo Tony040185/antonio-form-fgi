@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(237, 236, 236);
+}
+
+.contenedor-principal {
+    width: 660px;
+    padding: 85px;
+    background-color: white;
+    position: absolute; /* Posicionamiento absoluto para el div */
+    top: 50%; /* Posicionar el div al 50% de la altura */
+    left: 50%; /* Posicionar el div al 50% del ancho */
+    transform: translate(-50%, -50%); /* Mover el div hacia arriba y hacia la izquierda un 50% de su propio ancho y alto */
+    color: white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+img {
+    width: 100px;
+}
+
+h1, h3{
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal    
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal
+}
+
+input[type="text"]{
+    font-size: 30px;
+    margin-bottom: 10px;
+    border: none; /* Quita todos los bordes */
+    border-bottom: 1px solid #575757; /* Agrega solo la línea inferior */
+    opacity: 0.5;
+}
+
+a {    
+    margin-bottom: 30px; /* Mantiene el margen inferior */
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: rgb(24, 119, 242); /* Cambia el color del texto */
+}
+
+.enviar{
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 40px;
+    margin-bottom: 120px;
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+}
+
+input[type="submit"]{
+    width: 125px;
+    background-color: rgb(24, 119, 242);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url(..//css/assets/fondo-instagram-colores-degradados.avif);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Billabong'; 
+    src: url('ruta/a/tu/fuente/Billabong.ttf') format('truetype');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 55px;
+    font-family: 'Billabong', cursive; 
+    font-size: 48px; 
+    color: white;    
+}
+
+form {
+    height: 80% vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor-principal {
+    width: 450px;
+    background-color: black;
+    position: absolute; /* Posicionamiento absoluto para el div */
+    top: 50%; /* Posicionar el div al 50% de la altura */
+    left: 50%; /* Posicionar el div al 50% del ancho */
+    transform: translate(-50%, -50%); /* Mover el div hacia arriba y hacia la izquierda un 50% de su propio ancho y alto */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+input[type ="text"], input[type="password"], input[type="submit"]{    
+    width: 90%; /* Ancho del 90% para los inputs */    
+    color: white;
+    height: 4ch; /* Altura del input */
+    margin-bottom: 10px;
+    font-size: 15px; /* Tamaño de fuente más grande */
+    font-weight: 400;
+    padding: 5px; /* Espacio interno para hacer el input más cómodo */    
+    border-radius: 2px; /* Bordes redondeados */
+} 
+
+input[type="submit"]{
+    font-weight: bold;
+}
+
+input[type ="text"], input[type="password"]{
+    background-color: rgb(62, 61, 61);
+    border: 0;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color: white; /* Cambia el color del texto del placeholder a blanco */
+    opacity: 0.5; /* Ajusta la opacidad si deseas un efecto más suave (opcional) */
+    margin-left: 25px;
+}
+input[type="submit"]{
+    height: 40px;
+    background-color: rgb(24, 119, 242);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+span{
+    color:rgb(24, 119, 242) ;
+}
+.usuarios, .button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+}
+
+.linkfacebook {
+    width: 250px;
+    padding-bottom: 120px; 
+    padding-top: 25px;   
+}
+
+.linkforgotten{
+    padding-left: 270px;
+    padding-bottom: 25px;
+    color: rgb(24, 119, 242);
+}
+
+.contenedor-secundario {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hr {
+    height: 2px;
+    width: 140px; /* Ancho de las líneas */
+    background: rgba(232, 226, 226, 0.2);
+}
+
+.separador {
+    display: flex;
+    justify-content: space-around; /* Centra todos los elementos en el contenedor */
+    align-items: center; /* Centra verticalmente los elementos */    
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(189, 191, 193);
+}
+
+.line {
+    height: 2px;
+    width: 100%; /* Ancho de las líneas */
+    background: rgba(232, 226, 226, 0.2);
+}
+
+.contenedor-secundario div:last-child {
+    padding: 30px;
+    display: flex; /* Activar Flexbox en el último div */
+    justify-content: center; /* Centrar horizontalmente el texto */
+}

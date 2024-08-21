@@ -9,19 +9,14 @@ body {
     background-size: cover;
 }
 
-@font-face {
-    font-family: 'Billabong'; 
-    src: url('ruta/a/tu/fuente/Billabong.ttf') format('truetype');
+.title{
+    text-align: center;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    padding-top: 120px;
-    padding-bottom: 55px;
-    font-family: 'Billabong', cursive; 
-    font-size: 48px; 
-    color: white;    
+.title img {
+    width: 180px;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 form {
@@ -73,7 +68,8 @@ input[type="submit"]{
     margin-bottom: 25px;
 }
 span{
-    color:rgb(24, 119, 242) ;
+    color:#3b5998;
+    text-decoration: none;
 }
 .usuarios, .button{
     width: 100%;
@@ -85,18 +81,31 @@ span{
 .facebook {
     display: flex;
     justify-content: center;
+    align-items: center; 
+}
+
+.facebook a{
+    text-decoration: none;
+    margin-bottom: 75px;
+    margin-left: 5px;
+    color: #3b5998;
 }
 
 .linkfacebook {
-    width: 250px;
-    padding-bottom: 120px; 
+    width: 20px;
+    padding-bottom: 100px; 
     padding-top: 25px;   
 }
 
 .linkforgotten{
     padding-left: 270px;
-    padding-bottom: 25px;
-    color: rgb(24, 119, 242);
+    padding-bottom: 25px;   
+    color: #3b5998;   
+}
+
+.linkforgotten a{
+    text-decoration: none;
+    color: #3b5998
 }
 
 .contenedor-secundario {
@@ -108,17 +117,23 @@ span{
 
 .hr {
     height: 2px;
-    width: 140px; /* Ancho de las líneas */
+    width: 185px; /* Ancho de las líneas */
     background: rgba(232, 226, 226, 0.2);
 }
 
-.separador {
+.separador {       
     display: flex;
-    justify-content: space-around; /* Centra todos los elementos en el contenedor */
+    align-items: center;
+    justify-content: center; /* Centra todos los elementos en el contenedor */
     align-items: center; /* Centra verticalmente los elementos */    
     font-weight: bold;
     font-size: 15px;
     color: rgb(189, 191, 193);
+}
+
+.or{
+    margin: 5px;
+    opacity: 0.5;
 }
 
 .line {
@@ -132,3 +147,7 @@ span{
     display: flex; /* Activar Flexbox en el último div */
     justify-content: center; /* Centrar horizontalmente el texto */
 }
+ .linktosignup  a{
+    text-decoration: none;
+    color: #3b5998
+ }
